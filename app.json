@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Campolina",
+    "slug": "Campolina",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconCamp.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/iconeTela.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/iconCamp.png",
+        "backgroundColor": "#242834"
+      },
+      "package": "com.joaovitor2511.Campolina"
+    },
+    "web": {
+      "favicon": "./assets/iconCamp.png"
+    }
+  }
+}
